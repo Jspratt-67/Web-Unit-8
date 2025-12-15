@@ -1,0 +1,58 @@
+/*Navbar Custom Layout and font*/
+.navbar-custom {
+    background-color:green;
+    font-family: 'Comic Sans Ms';
+}
+
+.card {
+    border:none; 
+}
+.container .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.card-img-top {
+    height: 120px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    background-color: blue ;
+    color: white;
+    font-family:sans-serif;
+}
+
+.card-title {
+    font-size: 1.5rem;  
+    font-weight:bold;
+    font-family:'Comic Sans MS';
+}
+
+.card-text {
+    font-size: 1rem;
+    font-family: 'Comic Sans MS';
+}
+
+
+.hero-image {
+    background-image: 
+    url("../Images/bouncy-castle-hero.png");
+
+    height: 30vh;
+    background-position: center;
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+.hero-text h1 {
+    font-weight: bold;
+    color:blue;
+    font-family: 'Comic Sans MS';
+}
+
+.hero-text p {
+    font-weight: bold;
+    color: blue;
+    font-family: 'Comic Sans MS';
+}

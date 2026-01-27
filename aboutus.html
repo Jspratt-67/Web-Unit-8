@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+
+  <!-- social icon for the place-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+<meta name="Spratt Cat’s Charity " content="Help and info ">
+<meta name= "fixing the cat catastrophe one feline at a time" content="HTML, CSS, JavaScript">
+<meta name="Cats, Care, Charity " content="HTML, CSS, JavaScript">
+
+
+  <style>
+    * 
+    {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body 
+    {
+      height: 100%;
+    }
+
+    body 
+    {
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    /* Page WRapper */
+    .page-wrapper 
+    {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    header 
+    {
+      background: #2f4f6f;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    Header a {
+  text-decoration: none;
+  color: inherit;
+    }
+
+    header h1 
+    {
+      color: #fff;
+      font-size: 22px;
+    }
+    header h1:hover 
+    {
+      color: #ffd700;
+    }
+
+    nav a 
+    {
+      margin-left: 20px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav a:hover 
+    {
+      color: #ffd700;
+    }
+
+    /* Main area */
+    main 
+    {
+      flex: 1;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card-img-top {
+  height: 250px;       /* all images same height */
+  object-fit: cover;   /* crop nicely without stretching */
+    }
+
+     .card {
+    border-radius: 10px; /* smooth corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+
+      /* Hero Section */
+.hero {
+  background: url("images/hero-cat.jpg") center/cover no-repeat;
+  height: 400px;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+    
+    .section 
+    {
+      background: #ffffff;
+      height: 200px;
+      margin-bottom: 30px;
+      border-radius: 6px;
+    }
+
+    /* Footer */
+    footer {
+      background: #2f4f6f;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #ffd700;
+    }
+    .hero image {
+      height:auto
+      
+    
+    }
+    .hero text
+    {
+    Text-align:center
+    
+
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+    <header>
+       <h1><a href=index.html >Spratt's Cat  Charity</h1></a>
+      
+     <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Product</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contactus.html">Contact Us</a>
+      <a href="faq.html">FAQ</a>
+      </nav>
+  </header>
+
+    
+      <!-- Content-->
+       <!-- Main -->
+      <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <h1>Spratt’s Cat Charity</h1>
+      <p>Fixing the cat catastrophe, one feline at a time 🐾</p>
+      <a href="contactus.html" class="btn btn-warning">Support Our Cats</a>
+    </div>
+  </div>
+</section>
+
+
+
+   <main class="container py-5">
+  <h1 class="text-center mb-4">Meet Our Team</h1>
+
+  <div class="row g-4">
+    <!-- me -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/owner.jpg" class="card-img-top" alt="Owner" />
+        <div class="card-body">
+          <h5 class="card-title">The Owner</h5>
+          <p class="card-text">
+            This is me, the founder! I started Spratt’s Cat Charity because I love cats and want to make a difference.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vet 1 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/vet1.jpg" class="card-img-top" alt="Veterinarian 1" />
+        <div class="card-body">
+          <h5 class="card-title">Dr. Whiskers</h5>
+          <p class="card-text">
+            Our experienced veterinarian specializing in cat health and welfare.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vet 2 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/vet2.jpg" class="card-img-top" alt="Veterinarian 2" />
+        <div class="card-body">
+          <h5 class="card-title">Dr. Paws</h5>
+          <p class="card-text">
+            Passionate about feline care and ensuring every cat gets the love and attention they deserve.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cat 1 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/cat1.jpg" class="card-img-top" alt="Cat 1" />
+        <div class="card-body">
+          <h5 class="card-title">Mittens</h5>
+          <p class="card-text">
+           Definitely one of the cats at the charity.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cat 2 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/cat2.jpg" class="card-img-top" alt="Cat 2" />
+        <div class="card-body">
+          <h5 class="card-title">Snowball</h5>
+          <p class="card-text">
+            Our playful and friendly cat, always ready to make visitors smile.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cat 3 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/cat3.jpg" class="card-img-top" alt="Cat 3" />
+        <div class="card-body">
+          <h5 class="card-title">Tiger</h5>
+          <p class="card-text">
+            The beast himself.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+    <footer>
+          © Spratt Designs
+    <br>
+    <small>NPO•For the Cats•Helping Cats since 2002</small>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+</body>
+</html>
